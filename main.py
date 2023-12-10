@@ -1,4 +1,4 @@
-from data_br import DatasBr
-
-data = DatasBr()
-print(data.tempo_de_cadastro())
+from acesso_cep import BuscaEndereco
+import re
+buscador = BuscaEndereco("38446213")
+print(buscador.mascara_cep())
